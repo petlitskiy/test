@@ -1,6 +1,6 @@
 //gitOpsPipeline name: 'test',
 //               type: 'gradlew'
-gitOpsTest
+gitOpsTest()
 
 //pipeline {
 //  options { 
