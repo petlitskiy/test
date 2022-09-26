@@ -7,10 +7,6 @@ pipeline {
     disableConcurrentBuilds()
     buildDiscarder(logRotator(numToKeepStr: '10'))
   }
-  triggers {
-    issueCommentTrigger(issueTriggers)
-    pullRequestReview(reviewStates: ['approved'])
-  }
   agent any
   stages {
     stage('test') {
