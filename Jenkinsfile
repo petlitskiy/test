@@ -1,2 +1,3 @@
-gitOpsPipeline name: 'test',
-               type: 'gradlew'
+//gitOpsPipeline name: 'test',
+//               type: 'gradlew'
+gitOpsTest()
